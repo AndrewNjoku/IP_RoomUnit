@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/image_gs"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/gs"
+            android:src="@drawable/grandstream" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_calldemo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/calldemo" />
+
+            <Button
+                android:id="@+id/btn_smsdemo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/smsdemo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_accountdemo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/accountdemo" />
+
+            <Button
+                android:id="@+id/click_to_call"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/clicktocall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_contactdemo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/contactdemo" />
+
+            <Button
+                android:id="@+id/btn_calllogdemo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/calllogdemo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_audiochanneldemo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/audiochanneldemo" />
+
+            <Button
+                android:id="@+id/btn_callstatus"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/callstatusdemo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_keyinputdemo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/keyinputdemo" />
+
+            <Button
+                android:id="@+id/btn_nextdemo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/the_next_demo" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >        
+	        <Button
+	            android:id="@+id/btn_leddemo_code"
+	            android:layout_width="200dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/led_demo" 
+	           />
+	        <Button
+	            android:id="@+id/btn_source_code_view"
+	            android:layout_width="200dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/source_code_view" />        
+           </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

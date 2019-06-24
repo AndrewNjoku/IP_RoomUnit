@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"        
+        android:orientation="vertical"
+        android:paddingTop="3dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/call_phone_num"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_num"
+                android:inputType="phone"
+                android:minLines="1" />
+
+            <Button
+                android:id="@+id/del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-8dp"
+                android:text="@string/Del" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_one" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_two" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_three" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_four" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_five" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_six" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_seven" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_eight" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_nine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/star"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_star" />
+
+            <Button
+                android:id="@+id/zero"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_zero" />
+
+            <Button
+                android:id="@+id/pound"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_image_button_pound" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dip" >
+
+        <Spinner
+            android:id="@+id/account_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/btn_opendial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_opencall" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn_editcall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_editbeforecall" />
+
+        <Button
+            android:id="@+id/btn_directdial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_directdial" />
+
+        <Button
+            android:id="@+id/btn_redial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_repeatdial" />
+    </LinearLayout>
+
+</LinearLayout>

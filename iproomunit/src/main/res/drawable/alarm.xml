@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:drawable="@drawable/alarmpicactive"><shape android:shape="rectangle">
+            <gradient android:angle="270" android:endColor="#C0C0C0" android:startColor="#FFFFFF" />
+
+            <corners android:radius="20dp" />
+
+            <stroke android:width="4px" android:color="#FF3333" />
+        </shape></item>
+        
+    
+       <item android:state_pressed="false" android:drawable="@drawable/alarmpic"><shape android:shape="rectangle">
+            <gradient android:angle="270" android:endColor="#808080" android:startColor="#FFFFFF" />
+
+            <corners android:radius="20dp" />
+
+            <stroke android:width="4px" android:color="#CC0000" />
+        </shape></item>
+    
+<!--     <item><shape android:shape="rectangle">
+            <gradient android:angle="270" android:endColor="#808080" android:startColor="#FFFFFF" />
+
+            <corners android:radius="20dp" />
+
+            <stroke android:width="4px" android:color="#CC0000" />
+        </shape></item> -->
+
+
+</selector>

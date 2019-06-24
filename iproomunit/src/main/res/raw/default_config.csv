@@ -1,0 +1,16 @@
+P1,0,N,Alarm Button 0 = No; 1 = Yes
+P2,1,N,I'm OK Button 0 = No; 1 = Yes
+P3,1,N,Home/Away Button 0 = No; 1 = Yes
+P4,1,N,Door Open Button 0 = No; 1 = Yes
+P5,1,N,Door Video Button 0 = No; 1 = Yes
+P6,1,N,Door Privacy Button 0 = No; 1 = Yes
+P7,0,N,WiFi Hotspot Button 0 = No; 1 = Yes
+P10,192.168.0.200,N,Alarm Server (Vi IP CU) UDP socket address
+P11,50002,N,Alarm Server (Vi IP CU) UDP socket port
+P12,149,N,Alarm Server (Vi IP CU) HTU i.d.
+P13,20,N,Door Video time out value in seconds; valid values 1-120
+P20,Tunst149,N,WiFI hotspot SSID; 8 alphanumeric characters
+P21,gr25fd67,N,WiFI hotspot password; 8 alphanumeric characters
+P30,http://192.168.0.101/phone/gui/gui%s.csv,Y,GUI configuration file URL; file name is gui<MAC address>.csv
+P31,120,N,GUI configuration file recheck period in minutes; valid values 1-1440
+P32,3041,N,Settings PIN

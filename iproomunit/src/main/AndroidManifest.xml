@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tunstall.com"
+    android:versionCode="1"
+    android:versionName="1.19" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="true" />
+
+    <application
+        android:name="com.tunstall.grandstream.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/tunstallicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tunstall.grandstream.Home_Screen_Activity.MVP.Home_Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tunstall.grandstream.MjpegStreamingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity    
+        android:name="com.tunstall.grandstream.SettingsActivity"
+            android:label="@string/action_settings"
+            android:screenOrientation="landscape" />
+        <service
+            android:name="com.tunstall.grandstream.SocketService"
+            android:enabled="true" />
+        
+        <receiver android:name="com.tunstall.grandstream.IncomingCall">   
+                <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+                </intent-filter>
+        </receiver>
+        
+<receiver android:enabled="true" android:name="com.tunstall.grandstream.BootUpReceiver"
+        android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+
+        <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+</receiver>
+
+        <activity
+            android:theme="@android:style/Theme.Holo.Light.Dialog"
+            android:name="com.tunstall.grandstream.WifiActivity"
+            android:label="@string/wifi"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

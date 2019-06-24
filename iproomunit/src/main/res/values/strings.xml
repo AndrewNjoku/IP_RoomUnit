@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vi IP</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="door_open">Door Open</string>
+    <string name="door_video">Door Video</string>
+    <string name="door_privacy">Door Privacy</string>
+    <string name="homeaway">Home/Away</string>
+    <string name="imok">I\'m OK</string>
+    <string name="alarm">Alarm</string>
+    <string name="ipaddress">IP address</string>
+    <string name="port">Port</string>
+    <string name="residentid">Resident ID</string>
+    <string name="buttonok">OK</string>
+    <string name="error_no_connectivity">There is a connectivity issue\nthe action has not been performed</string>
+    <string name="error_missing_parameters">One or more parameters are missing.\nPress OK to go to settings to configure them</string>
+    <string name="error_chek_ip">There is a connectivity issue\nCheck IP settings</string>
+    <string name="error">Warning</string>
+    <string name="error_unknown_resident">Unknown resident</string>
+    <string name="error_no_active_door_call">No active door call for resident</string>
+    <string name="error_general_error">General error</string>
+    <string name="error_video_streaming">Something went wrong with video streaming</string>
+    <string name="error_video_authentication">Something went wrong with the authentication to the video server</string>
+    <string name="enter_pin_code">Enter pin code</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="wrong_pin_code">Wrong pin code!</string>
+	<string name="wifi">Wifi Hotspot</string>
+	<string name="password_with_arg">Password: %s</string>
+	<string name="password">Password</string>
+	<string name="enabled">Enabled</string>
+	<string name="disabled">Disabled</string>
+	<string name="button_visibility">Button visibility</string>
+	<string name="visible_in_options_menu">Show in options menu</string>
+	<string name="video_timeout">Door Video time out value in seconds</string>
+	<string name="SSID">SSID</string>
+	<string name="SSID_with_arg">SSID: %s</string>
+	<string name="general">General</string>
+	<string name="ui_config_file_url">UI config file URL</string>
+	<string name="ui_config_recheck">Config file recheck period in minues</string>
+	<string name="settings_pin">Settings pin code</string>
+	<string name="version">Version</string>
+	<string name="force_download">Force download</string>
+	<string name="last_config">Last Config</string>
+</resources>

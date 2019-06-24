@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">API Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">API Demo</string>
+    <string name="gs">grandstream</string>
+    <string name="calldemo">Call Demo</string>
+    <string name="smsdemo">Sms Demo</string>
+    <string name="accountdemo">Account Demo</string>
+    <string name="source_code_view">Source Code View</string>
+    <string name="clicktocall">Click To Call</string>
+    <string name="contactdemo">Contact Demo</string>
+    <string name="calllogdemo">CallLog Demo</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="audiochanneldemo">Audio Channel Demo</string>
+    <string name="callstatusdemo">Call Status Demo</string>
+    <string name="the_next_demo">The Next Demo</string>
+    <string name="led_demo">LED Demo</string>
+
+    <!-- calldemo -->
+    <string name="btn_opencall">OpenDial</string>
+    <string name="btn_editbeforecall">EditBeforeCall</string>
+    <string name="btn_directdial">DirectDial</string>
+    <string name="btn_repeatdial">Redial</string>
+    <string name="phone_num">Phone num</string>
+    <string name="please_write_phone_num">please write phone num</string>
+    <string name="Del">Del</string>
+    <string name="spinner_accountid_prompt">Account Id</string>
+
+    <!-- smsdemo -->
+    <string name="semm_content">Message content</string>
+    <string name="please_write_sms_content">please write sms content</string>
+    <string name="semm_send">Send</string>
+    <string name="sms_enable_receiver">Enable Message Receiver</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="sms_speak_string_format">Message from "%1$s": %2$s</string>
+    <string name="reply">Reply</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="edit_enable">Enable Edit</string>
+    <string name="account_id">Accout id</string>
+
+    <!-- receiver dialog -->
+    <string name="receiver_dialog_title">Message Received</string>
+
+    <!-- TwelveKeyDialer -->
+
+    <string name="description_image_button_one">1</string>
+    <string name="description_image_button_two">2</string>
+    <string name="description_image_button_three">3</string>
+    <string name="description_image_button_four">4</string>
+    <string name="description_image_button_five">5</string>
+    <string name="description_image_button_six">6</string>
+    <string name="description_image_button_seven">7</string>
+    <string name="description_image_button_eight">8</string>
+    <string name="description_image_button_nine">9</string>
+    <string name="description_image_button_star">*</string>
+    <string name="description_image_button_zero">0</string>
+    <string name="description_image_button_pound">#</string>
+
+    <!-- source code view -->
+    <string name="codebrowser">Code Browser</string>
+    <string name="brief_introduction">The following buttons can link the main source code, you can click buttons to see the corresponding code.</string>
+
+    <!-- Account demo -->
+    <string name="ck_accountactive">Account Active"</string>
+    <string name="tv_account_name">Account Name:</string>
+    <string name="tv_sip_service">SIP Server:</string>
+    <string name="tv_outboundproxy">Secondary SIP Server:</string>
+    <string name="tv_sip_userid">SIP User ID:</string>
+    <string name="tv_sipauthid">SIP Auth ID:</string>
+    <string name="tv_sipauthpassword">SIP Auth Password:</string>
+    <string name="tv_VoiceMailUserID">Voice Mail User ID:</string>
+    <string name="tv_DisplayName">Display Name:</string>
+
+    <!-- contact edit -->
+    <string name="family_name_hint">Family Name</string>
+    <string name="user_name_hint">Given Name</string>
+    <string name="phone_num_textview">Phone:</string>
+    <string name="phone_hint">phone number</string>
+    <string name="email_textview">E-mail:</string>
+    <string name="email_hint">Email</string>
+    <string name="im_textview">IM:</string>
+    <string name="im_hint">im</string>
+    <string name="postal_textview">Postal:</string>
+    <string name="street_hint">street</string>
+    <string name="pobox_hint">pobox</string>
+    <string name="neighborhoods_hint">neighborhoods</string>
+    <string name="city_hint">city</string>
+    <string name="region_hint">region</string>
+    <string name="postcode_hint">postcode</string>
+    <string name="country_hint">country</string>
+    <string name="note_textview">Note:</string>
+    <string name="note_hint">note</string>
+    <string name="website_textview">Website:</string>
+    <string name="website_hint">website</string>
+    <string name="group_textview">Group:</string>
+    <string name="ringtone_textview">Ringtone</string>
+    <string name="select_photo_title">Select a picture</string>
+    <string name="photo_description">contace photo</string>
+
+    <!-- contact demo -->
+    <string name="progress_dialog_title">Load Contacts</string>
+    <string name="progress_dialog_message">Loading......</string>
+    <string name="contact_demo_context_menu_0">View</string>
+    <string name="contact_demo_context_menu_1">Call</string>
+    <string name="contact_demo_context_menu_2">Sms</string>
+    <string name="contact_demo_context_menu_3">Edit</string>
+    <string name="contact_demo_context_menu_4">Delete</string>
+    <string name="contact_demo_context_item_menu_4_title">Do you want to delete it ?</string>
+    <string name="contact_demo_options_menu_0">Add</string>
+    <string name="contact_demo_options_menu_1">Del All</string>
+    <string name="contact_demo_options_menu_2">Group</string>
+    <string name="contact_demo_options_item_menu_1_title">Do you want to delete all?</string>
+
+    <!-- contace edit -->
+    <string name="contacts_edit_spinner_account_id_prompt">Account</string>
+    <string name="contacts_edit_spinner_phone_type_prompt">Phone Type</string>
+    <string name="contacts_edit_spinner_email_type_prompt">Email Type</string>
+    <string name="contacts_edit_spinner_im_protocol_prompt">Im Protocol</string>
+    <string name="contacts_edit_spinner_postal_type_prompt">Postal Type</string>
+    <string name="contacts_edit_spinner_group_prompt">Group</string>
+    <string name="contacts_edit_spinner_ring_tone_prompt">Ring Tone</string>
+    <string name="contacts_edit_groupinfo_no_group_title">No Group</string>
+
+    <!-- contact goup manager -->
+    <string name="new_group_name">new group name</string>
+    <string name="add_group_dialog_title">Add Group Name</string>
+    <string name="contact_group_manager_context_menu_0">Change Group Name</string>
+    <string name="contact_group_manager_context_menu_1">Delete</string>
+    <string name="contact_group_manager_context_item_0_dialog_title">Change Group Name</string>
+    <string name="contact_group_manager_context_item_1_dialog_title">Are you sure to delete this group?</string>
+    <string name="contact_group_manager_options_menu_0">Add</string>
+    <string name="contact_group_manager_groupinfo_no_group_title">No Group</string>
+    <string name="add_group_message">group name</string>
+
+    <!-- calllog demo -->
+    <string name="call_log_type_incoming">Incoming</string>
+    <string name="call_log_type_outgoing">Outgoing</string>
+    <string name="call_log_type_missed">Missed</string>
+    <string name="call_log_not_connected">Not Connected</string>
+    <string name="call_log_option_menu_title">Clear All</string>
+    <string name="call_log_option_memu_dialog_title">Delete All Calllog</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- audio channel change demo -->
+    <string name="headset">Headset</string>
+    <string name="speaker">Speaker</string>
+    <string name="handset">Handset</string>
+    <string name="select_audio_channel">Select Voice Channel</string>
+
+    <!-- call status demo -->
+    <string name="getcallstatus">Click the following buttons to get the call status.</string>
+    <string name="IsCallViewShow">Check the call view is show not:</string>
+    <string name="IsBusy">Check the call line is busy or not:</string>
+    <string name="GetLineStatus">Get the call line status:</string>
+    <string name="btn_getLineStatuss">LineStatus</string>
+    <string name="btn_isCallViewShow">CallViewShow</string>
+    <string name="btn_isBusy">IsBusy</string>
+    <string name="toast_call_line">Call line </string>
+    <string name="toast_status_is"> status is </string>
+    <string name="toast_there_is_no_active_line">There is no active line!</string>
+    <string name="toast_call_line_is_busy">Call line is busy now</string>
+    <string name="toast_call_line_not_busy">Call line is not busy now</string>
+    <string name="toast_call_view_show">Call view is showing</string>
+    <string name="toast_call_view_not_show">Call view is not showing</string>
+
+    <!-- key input demo -->
+    <string name="keyinputdemo">Key Input Demo</string>
+    <string name="keycode_label_text">Keypad Code</string>
+    <string name="key_label_text">Key Display Value</string>
+    <string name="state_label_text">Keypad Status</string>
+    <string name="exit">Exit</string>
+    <string name="action_down">DOWN</string>
+    <string name="action_up">UP</string>
+    <string name="action_multi">MULTI</string>
+    <string name="title_activity_led_demo">LedDemo</string>
+    <string name="action_settings">Settings</string>
+
+     <!-- led demo -->
+     <string name="start_red_light">start red light and set priority 4</string>
+    <string name="end_red_light">end red light</string>
+    <string name="start_green_light">start green light and set priority 1</string>
+    <string name="end_green_light">end green light</string>
+</resources>
