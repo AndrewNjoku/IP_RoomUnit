@@ -95,26 +95,18 @@ public class Home_Activity extends Activity implements OnClickListener,
 
 
 
-		// In future using Dagger injection to inject presenter here and fill dependencies, but for now will create presenter
-		//the normal wa
+		//TODO In future using Dagger injection to inject presenter here and fill dependencies, but for now will create presenter
+		//the normal way
 
 
 		//initialise presenter
 		myHomePresenter = new Home_Activity_Presenter(this);
 
-
-
-
 		// App settings is the settings instance which is saving the application configuration.
-
-
-
 
 		mAppSettings = ((MyApplication) getApplicationContext()).getAppSettings();
 		mAppSettings.registerListener(this);
-		
 		mSoundPlayer = new SoundPlayer(this);
-		
 		mDoorOpen = (Button) findViewById(R.id.doorOpen);
 		mDoorOpen.setTag(DOOR_OPEN.toLowerCase());
 
@@ -143,10 +135,10 @@ public class Home_Activity extends Activity implements OnClickListener,
 		Intent serviceIntent = new Intent(this, SocketService.class);
 		bindService(serviceIntent, mServiceConnection, BIND_AUTO_CREATE);
 
-		// // @@@ This is a bodge to bring up the video streaming activity
+		// // TODO - This is a bodge (Plaster) to bring up the video streaming activity
 		// immediately.
 		// Intent videoIntent = new Intent(Home_Activity.this,
-		// MjpegStr eamingActivity.class);
+		// MjpegStr streamingActivity.class);
 		// videoIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		// videoIntent.putExtra("videoLocation",
 		// "http://192.168.0.41/GetData.cgi");
@@ -159,6 +151,10 @@ public class Home_Activity extends Activity implements OnClickListener,
 
 		// Update the phone ui when resumed so the ui reflects the server state
 		// (in case changes has been made on the server)
+
+
+
+		//TODO registering broadcast receiver and unregistering via the onPause and onResume overriden methods
 		mUpdatePhoneUi = true;
 		unregisterReceiver(mSocketBroadcastReceiver);
 	}
